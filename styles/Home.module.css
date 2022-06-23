@@ -1,0 +1,75 @@
+.columns{
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card{
+  padding: 10px;
+  position: relative;
+  border-radius: 30px;
+  height: 150px;
+  color: #fff;
+}
+
+.image {
+  position: absolute;
+  right: -8px;
+  bottom: 0;
+}
+
+.nameType h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  text-transform: capitalize;
+  margin: 5px 0 10px 0;
+  font-size: 23px;
+}
+
+.types{
+  display: flex;
+  flex-direction: column;
+}
+
+.type{
+  margin: 0 0 10px 0;
+  background: rgba(255, 255, 255, .5);
+  padding: 5px 10px;
+  border-radius: 5px;
+  align-self: flex-start;
+  text-transform: capitalize;
+}
+
+.buttonsType{
+  display: flex;
+  padding: 15px 0 15px 15px;
+}
+
+.listTypes{
+  display: flex;
+  overflow: auto;
+  padding-bottom: 5px;
+}
+
+.listButtons{
+  color: #fff;
+  margin-right: 10px;
+  border: none;
+  padding: 8px 15px; 
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.showAll{  
+  color: #000;
+  margin-right: 10px;
+  border: none;
+  padding: 8px 15px; 
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
